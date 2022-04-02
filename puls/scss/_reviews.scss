@@ -1,0 +1,82 @@
+#reviews {
+    padding-bottom: 70px;
+    display: none;
+    .reviews__title {
+        text-align: center;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -700";
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        text-transform: uppercase;
+        opacity: 0;
+    }
+
+    .reviews__client {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .reviews__client_photo {
+        position: relative;
+        img{
+            position: relative;
+            z-index: 2;
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            top: -2px;
+            left: 0;
+            background: linear-gradient(to top, rgb(130, 8, 167), rgb(21, 212, 164));
+            border-radius: 100%;
+            width: 173px;
+            height: 173px;
+            animation: 3s anim ease-in-out infinite;
+        }
+
+    }
+
+    .reviews__client_wrapper {
+        margin-left: 60px;
+        max-width: 655px;
+    }
+
+    .reviews__client_name {
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -700";
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+    .reviews__client_maraphone_count {
+        color: #646464;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .reviews__client_comment {
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+

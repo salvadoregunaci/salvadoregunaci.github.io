@@ -1,0 +1,89 @@
+@import "animations";
+@import "promo";
+@import "benefits";
+@import "consultation";
+@import "carousel";
+@import "catalog";
+@import "reviews";
+@import "footer";
+@import "modal_windows";
+@import "general";
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel__slider {
+    position: relative;
+    min-width: 0;
+
+    .slick-track {
+        display: flex;
+        text-align: center;
+    }
+
+    .slick-slide {
+        text-align: center;
+    }
+
+    .slick-list {
+        text-align: center;
+    }
+}
+
+.carousel__row {
+    min-width: 0;
+}
+
+.success_by_wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    background: url("../img/modal/success_by_bg.jpg") center center/cover no-repeat;
+
+    .success_by {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 300px;
+        background-color: #c70101;
+        border-radius: 15px;
+        transform: translate(-50%, -50%);
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+
+        p {
+            font-family: "Museo Sans Cyrl -500";
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        a {
+            font-family: "Museo Sans Cyrl -700";
+            color: #fff;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 40px;
+            text-decoration: none;
+            color: rgb(252, 236, 21);
+            &:hover{
+                color: rgb(29, 245, 21);
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
+
+@import "media";
