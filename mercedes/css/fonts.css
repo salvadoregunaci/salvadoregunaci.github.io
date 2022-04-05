@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto Condensed Regular';
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+        url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate A Bold';
+    src: url('../fonts/CorporateA-Bold.eot');
+    src: url('../fonts/CorporateA-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CorporateA-Bold.woff') format('woff'),
+        url('../fonts/CorporateA-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
