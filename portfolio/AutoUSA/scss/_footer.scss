@@ -1,0 +1,23 @@
+footer {
+    background-color: $violet-dark;
+    padding: 25px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social_links{
+        margin-top: 0;
+    }
+    .footer__policy{
+        a{
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s;
+            &:hover{
+                color: $violet-active;
+            }
+        }
+    }
+}

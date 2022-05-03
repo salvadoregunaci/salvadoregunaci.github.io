@@ -1,0 +1,93 @@
+body{
+    overflow-x: hidden;
+}
+#mobile_menu{
+    display: none;
+}
+.company_phone {
+    font-size: 21px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+
+    &:hover {
+        color: $yellow;
+    }
+}
+
+.white_btn {
+    width: 177px;
+    height: 34px;
+    border-radius: 3px;
+    background: none;
+    border: 1px solid #ffffff;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+    &:hover {
+        color: $yellow;
+        border: 1px solid $yellow;
+    }
+
+    span {
+        display: inline-block;
+        margin-left: 8px;
+    }
+}
+
+.yellow_btn {
+    width: 264px;
+    height: 64px;
+    border-radius: 3px;
+    background-color: #ffba00;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #ff9100;
+        color: #fff;
+    }
+}
+
+.title_section {
+    color: #1f0f22;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    max-width: 710px;
+    line-height: 47px;
+    opacity: 0;
+    &:after{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 172px;
+        background-color: $yellow;
+        margin-top: 20px;
+    }
+}

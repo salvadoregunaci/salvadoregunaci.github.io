@@ -1,0 +1,70 @@
+#promo {
+    background: url("../img/promo/promo_solid_bg.png") top center/cover no-repeat;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    position: relative;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            text-transform: uppercase;
+            color: #fff;
+            transition: 0.3s;
+            &:hover{
+                color: $violet-active;
+            }
+        }
+    }
+
+    .promo__car_bg {
+        position: absolute;
+        bottom: -160px;
+        right: 300px;
+        opacity: 0;
+    }
+
+    .promo__offer {
+        margin-top: 100px;
+    }
+
+    .promo__title {
+        opacity: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        text-transform: uppercase;
+        color: #fff;
+        br{
+            display: none;
+        }
+    }
+
+    .promo__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .promo__info {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    .violet_btn {
+        margin-top: 30px;
+        opacity: 0;
+    }
+}

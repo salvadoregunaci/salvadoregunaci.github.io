@@ -1,0 +1,69 @@
+body {
+    font-family: 'Oswald';
+}
+html,body{
+    width: 100%;
+}
+.logotype {
+    max-width: 197px;
+}
+
+.violet_btn {
+    width: 250px;
+    height: 50px;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    background: none;
+    border: none;
+    background-color: $violet-light;
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        color: $violet-light;
+    }
+}
+
+.social_links {
+    margin-top: 75px;
+
+    i {
+        font-size: 24px;
+        color: #fff;
+        display: inline-block;
+        margin: 0 6px;
+        transition: 0.3s;
+
+        &:hover {
+            color: $violet-light;
+        }
+    }
+
+    .fa-instagram {
+        margin: 0;
+        margin-right: 6px;
+    }
+}
+
+.title_section {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: $violet-dark;
+    position: relative;
+    opacity: 0;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        display: inline-block;
+        width: 80px;
+        height: 3px;
+        background-color: $violet-dark;
+        margin-left: 15px;
+    }
+}

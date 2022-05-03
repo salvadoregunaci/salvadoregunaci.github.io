@@ -1,0 +1,24 @@
+#modules {
+    padding-top: 50px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .modules__text {
+        margin-top: 55px;
+        width: 735px;
+        color: #1f0f22;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+    }
+    .modules__img{
+        opacity: 0;
+    }
+}

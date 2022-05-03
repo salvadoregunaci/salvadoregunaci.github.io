@@ -1,0 +1,97 @@
+#promo {
+    padding-top: 35px;
+    padding-bottom: 245px;
+    background: url("../img/promo/promo_bg.png") center center/cover no-repeat;
+    .promo__mobile{
+        display: none;
+    }
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header__menu {
+            .header__menu_item {
+                font-family: "Open Sans";
+                font-size: 13px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: normal;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+                transition: 0.4s;
+                padding: 10px 0;
+                display: inline-block;
+                margin: 0 20px;
+
+                &:hover {
+                    color: #ffba00;
+                    border-top: 1px solid #ffba00;
+                    border-bottom: 1px solid #ffba00;
+                }
+            }
+        }
+
+        .header__phone_wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            margin-left: 50px;
+
+            .header__call_btn {
+                margin-top: 10px;
+                margin-left: auto;
+                &:hover{
+                    i{
+                        animation: tada 1s 2 forwards;
+                    }
+                }
+            }
+        }
+    }
+
+    .promo__heading {
+        margin-top: 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .promo__title {
+            max-width: 700px;
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 65px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: normal;
+            text-transform: uppercase;
+            text-align: center;
+            opacity: 0;
+        }
+
+        .promo__heading_wrap {
+            margin-top: 50px;
+            display: flex;
+        }
+        .promo__heading_view_btn{
+            margin-right: 20px;
+            opacity: 0;
+        }
+
+        .promo__heading_learning_btn {
+            margin-left: 20px;
+            width: 264px;
+            height: 64px;
+            font-family: "Open Sans";
+            font-size: 15px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            text-transform: uppercase;
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "general";
+@import "header";
+@import "sidebar";
+@import "promo";
+@import "concept";
+@import "video";
+@import "interior";
+@import "slider";
+@import "basement";
+@import "footer";
+@import "more_modal";
+@import "keyframes";
+@import "animations";
+
+body{
+    background: linear-gradient(to bottom, #070A1B, #202657);
+    overflow-x: hidden;
+    font-family: "Roboto Condensed Regular";
+}
+
+@import "media";

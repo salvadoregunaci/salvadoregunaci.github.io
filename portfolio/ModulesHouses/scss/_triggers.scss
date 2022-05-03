@@ -1,0 +1,34 @@
+#triggers {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(215, 215, 215);
+    background: linear-gradient(180deg, rgba(215,215,215,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(215,215,215,1) 100%, rgba(255,255,255,1) 700%);
+    .triggers__mobile{
+        display: none;
+    }
+    .triggers__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 60px;
+    }
+
+    .trigger__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .trigger__text_wrap {
+        margin-left: 20px;
+    }
+
+    .trigger__title {
+        color: #1f0f22;
+        font-family: "Open Sans";
+        font-size: 21px;
+        font-weight: 900;
+        font-style: normal;
+        letter-spacing: normal;
+        text-transform: uppercase;
+    }
+}

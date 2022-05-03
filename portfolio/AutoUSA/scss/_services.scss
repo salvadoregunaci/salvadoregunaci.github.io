@@ -1,0 +1,115 @@
+#services {
+    $margin-content-block: 50px;
+    margin-top: 200px;
+
+    .services__container {
+        display: flex;
+    }
+
+    .services__content_wrap_1 {
+        max-width: 500px;
+        margin-top: $margin-content-block;
+
+        .services__text_title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            color: $violet-light;
+        }
+        .services__text_title:nth-child(3){
+            margin-top: 70px;
+        }
+
+        .services__text {
+            margin-top: 10px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+            color: $black;
+        }
+
+        .services__btn_wrap {
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+        }
+
+        .services__btn {
+            &:hover{
+                color: #fff;
+                background-color: $violet-active;
+            }
+        }
+        .services__btn_go {
+            display: flex;
+            align-items: center;
+            color: $gray;
+            transform: translateX(-8px);
+            &::before{
+                content: "";
+                display: inline-block;
+                width: 80px;
+                height: 1px;
+                background-color: $gray;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .services__content_wrap_2 {
+        margin-top: $margin-content-block;
+        margin-left: 150px;
+
+        .services__step {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border: 1px solid $gray;
+            max-height: 80px;
+            width: 450px;
+            margin-bottom: 12px;
+            transition: 0.3s;
+            cursor: default;
+            &:hover{
+                border: 1px solid $violet-light;
+                width: 500px;
+                .services__step_number{
+                    color: $violet-light;
+                }
+                .services__step_title{
+                    color: $violet-light;
+                }
+            }
+        }
+
+        .services__step_number {
+            transform: rotate(-90deg);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            text-transform: uppercase;
+            color: $gray;
+            transition: 0.3s;
+        }
+
+        .services__step_wrap {
+            margin-left: 40px;
+        }
+
+        .services__step_title {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            color: $black;
+            transition: 0.3s;
+        }
+
+        .services__step_subtitle {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            color: $black;
+        }
+    }
+}

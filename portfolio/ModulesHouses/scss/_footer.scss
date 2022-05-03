@@ -1,0 +1,176 @@
+#footer {
+
+    position: relative;
+
+    .reviews__quotes {
+        position: absolute;
+        right: 200px;
+        top: 0;
+        transform: translateY(-60%);
+    }
+
+    .footer__heading {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: rgba($color: #582c60, $alpha: 0.9);
+
+        .container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .footer__title {
+            font-family: "Open Sans";
+            font-size: 26px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: normal;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .footer__adress {
+            color: $yellow;
+            margin-left: 100px;
+
+            span {
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: normal;
+                display: inline-block;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .footer__map {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        background: url("../img/footer/map.png") center/cover no-repeat;
+        display: flex;
+        justify-content: end;
+    }
+
+    .footer__form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 560px;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0 2px 98px rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+        text-align: center;
+
+        input {
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.21);
+            border-radius: 3px;
+            border: none;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding: 0px 30px;
+            font-family: "Open Sans";
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            color: rgba($color: #444444, $alpha: 0.6);
+        }
+
+        .form__input_name {
+            margin-top: 25px;
+        }
+
+        .form__input_phone {
+            margin-top: 15px;
+        }
+
+        .form__btn {
+            width: 100%;
+            height: 60px;
+            margin-top: 20px;
+        }
+    }
+
+    .form__title,
+    .form__subtitle {
+        color: #582C60;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 900;
+        font-style: normal;
+        letter-spacing: normal;
+        text-transform: uppercase;
+    }
+
+    .form__subtitle {
+        color: #212121;
+        font-size: 14px;
+    }
+
+    .form__security {
+        margin-top: 20px;
+
+        i {
+            color: #582C60;
+        }
+
+        span {
+            display: inline-block;
+            margin-left: 15px;
+            color: #582c60;
+            font-family: "Open Sans";
+            font-size: 11px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+    }
+
+    // --------------------------------
+    .footer__basement {
+        background-color: #3c1a42;
+        height: 100px;
+
+        .container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            justify-content: space-between;
+
+            .footer__policy {
+                font-family: "Open Sans";
+                font-size: 13px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                color: rgba($color: #fff, $alpha: 0.5);
+            }
+
+            .footer__call_btn {
+                i {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+
+            .footer_phone {
+                color: #ffffff;
+                font-family: "Open Sans";
+                font-size: 18px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: 2.1px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+
+}

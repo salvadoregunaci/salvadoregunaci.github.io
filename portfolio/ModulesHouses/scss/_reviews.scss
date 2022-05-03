@@ -1,0 +1,105 @@
+#reviews {
+    background: url("../img/reviews/reviews_bg.png") top center/cover no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    max-height: 600px;
+
+    .reviews__client_link img {
+        height: 16px;
+    }
+
+    .reviews_slider {
+        height: 200px;
+        max-width: 980px;
+        margin-top: 60px;
+        background-color: #fff;
+        margin-left: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.21);
+        position: relative;
+    }
+
+
+    .reviews__wrapper {
+        display: flex;
+    }
+
+    .reviews__info {
+        padding: 0px 50px;
+        padding-top: 30px;
+    }
+
+    .reviews__client_name {
+        display: flex;
+        align-items: center;
+        color: #1f0f22;
+        font-family: "Open Sans";
+        font-size: 17px;
+        font-weight: 900;
+        font-style: normal;
+        letter-spacing: normal;
+        text-transform: uppercase;
+
+        .reviews__client_link {
+            display: inline-block;
+            margin-left: 15px;
+
+            i {
+                font-size: 18px;
+                color: #582c60;
+                transition: 0.3s;
+
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+
+    .reviews__comment {
+        margin-top: 20px;
+        color: #1f0f22;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: normal;
+        line-height: 22px;
+    }
+
+    .controls-container{
+        position: relative;
+        width: 1090px;
+        height: 252px;
+        transform: translateY(-90%) translateX(-15%);
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        left: 0px;
+        bottom: -40px;
+        width: auto;
+        transform: translateX(27%);
+    }
+    .reviews-btn{
+        position: absolute;
+        color: #1f0f22;
+    }
+    .swiper-button-next{
+        transform: translateX(40%);
+        right: 0;
+    }
+    .swiper-button-prev{
+        left: 0;
+    }
+    .swiper-pagination-bullet{
+        width: 65px;
+        height: 5px;
+        border-radius: 0;
+        opacity: 1;
+        background-color: #fff;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: $yellow;
+    }
+}

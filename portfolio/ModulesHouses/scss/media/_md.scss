@@ -1,0 +1,20 @@
+@media (max-width: 1440px){
+    #modules{
+        .modules__img img{
+            width: 600px;
+        }
+    }
+    #reviews{
+        .controls-container{
+            transform: translateY(-90%) translateX(50px);
+        }
+        .reviews_slider{
+            transform: translateX(220px)
+        }
+    }
+    #footer{
+        .footer__form{
+            margin-right: 260px;
+        }
+    }
+}
